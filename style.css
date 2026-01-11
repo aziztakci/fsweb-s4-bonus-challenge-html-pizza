@@ -67,3 +67,34 @@ body {
   padding: 0px 50px;
   border: none;
 }
+
+.menu-categories {
+  width: 100%;
+}
+
+.menu-categories nav {
+  margin-top: 26px;
+  margin-bottom: 26px;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+}
+
+.menu-categories nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.menu-categories a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 16px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  color: #292929;
+}

@@ -1,4 +1,5 @@
 * {
+  
   box-sizing: border-box;
 }
 
@@ -110,6 +111,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 68px;
+  margin-bottom: 0;
   display: flex;
   justify-content: center;
 }
@@ -136,7 +138,7 @@ body {
   height: 449px;
   display: flex;
   gap: 11px;
-  border: 1px dotted black;
+  
 }
 
 
@@ -296,4 +298,76 @@ body {
   right: 32px;
   top: 50%;
   transform: translateY(-50%);
+}
+
+.card-price {
+  text-align: center;
+  margin-top: 55px;
+}
+
+.price-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  
+}
+
+.card-price p {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+  color: #CE2829;
+  margin: 0;
+  
+  
+}
+
+.card-price h3 {
+  
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 42px;
+  color: #292929;
+  margin: 0;
+}
+
+.nav-container {
+  
+  display: flex;
+  justify-content: space-between;
+  margin: 17px auto 0 auto;
+  width: 1070px;
+}
+
+.nav-button {
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+  background-color: white;
+  border: none;
+  border-radius: 50px;
+
+}
+
+.nav-button-active {
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+  color: #FFF;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 50px;
 }

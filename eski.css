@@ -8,8 +8,6 @@ body {
   background-color: #faf7f2;
 }
 
-/* ===== HEADER ===== */
-
 .main-section {
   background-image: url("assets/iteration-1/home-banner.png");
   background-repeat: no-repeat;
@@ -73,8 +71,6 @@ body {
   height: 56px;
 }
 
-/* ===== MAIN - MENU ALANI ===== */
-
 .menu-categories {
   background-color: white;
   width: 100%;
@@ -83,7 +79,6 @@ body {
 .menu-categories nav {
   margin-top: 0px;
   margin-bottom: 26px;
-  width: 100%;
   max-width: 1072px;
   margin-left: auto;
   margin-right: auto;
@@ -111,8 +106,6 @@ body {
   cursor: pointer;
 }
 
-/* ===== OFFERS ===== */
-
 .offers {
   margin-left: auto;
   margin-right: auto;
@@ -138,8 +131,7 @@ body {
 
 .offer-content {
   margin: 0 auto;
-  width: 100%;
-  max-width: 1072px;
+  width: 1072px;
   height: 449px;
   display: flex;
   gap: 11px;
@@ -147,8 +139,7 @@ body {
 
 .card-large {
   background-color: #ce2829;
-  width: 100%;
-  max-width: 531px;
+  width: 531px;
   height: 449px;
   border-radius: 12px;
   position: relative;
@@ -185,8 +176,7 @@ body {
 
 .card-large img {
   position: absolute;
-  width: 100%;
-  max-width: 531px;
+  width: 531px;
   height: auto;
   top: 0px;
   border-radius: 12px;
@@ -196,8 +186,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 449px;
-  width: 100%;
-  max-width: 530px;
+  width: 530px;
   gap: 9px;
 }
 
@@ -206,8 +195,7 @@ body {
   display: flex;
   gap: 73.5px;
   border-radius: 12px;
-  width: 100%;
-  max-width: 530px;
+  width: 530px;
   height: 220px;
   position: relative;
 }
@@ -220,8 +208,6 @@ body {
   margin-top: 0;
   margin-left: 32px;
   margin-bottom: 0px;
-  position: relative;
-  z-index: 2;
 }
 
 .card-text2 h3 {
@@ -240,15 +226,13 @@ body {
   right: 32px;
   top: 50%;
   transform: translateY(-50%);
-  z-index: 1;
 }
 
 .card-bottom {
   display: flex;
   justify-content: space-between;
   border-radius: 12px;
-  width: 100%;
-  max-width: 530px;
+  width: 530px;
   height: 220px;
   background-image: url("/assets/images/road.svg");
   background-repeat: no-repeat;
@@ -264,13 +248,12 @@ body {
   flex-direction: column;
   align-items: flex-start;
   gap: 25px;
-  position: relative;
-  z-index: 2;
 }
 
 .card-bottom h3 {
   color: #292929;
   margin: 0;
+
   padding: 0;
   font-family: "Barlow", sans-serif;
   font-weight: 600;
@@ -304,10 +287,7 @@ body {
   right: 32px;
   top: 50%;
   transform: translateY(-50%);
-  z-index: 1;
 }
-
-/* ===== CARD-PRICE ===== */
 
 .card-price {
   text-align: center;
@@ -339,14 +319,11 @@ body {
   margin: 0;
 }
 
-/* ===== NAV - ITEMS ===== */
-
 .nav-container {
   display: flex;
   justify-content: space-between;
   margin: 17px auto 0 auto;
-  width: 100%;
-  max-width: 1070px;
+  width: 1070px;
 }
 
 .nav-button {
@@ -379,8 +356,7 @@ body {
 }
 
 .card-items {
-  width: 100%;
-  max-width: 1070px;
+  width: 1070px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -399,6 +375,9 @@ body {
   border-radius: 12px;
 }
 
+.card-items .item p {
+  margin: 0;
+}
 .card-items .item h3 {
   font-family: "Barlow", sans-serif;
   font-weight: 600;
@@ -436,10 +415,6 @@ body {
   font-size: 20px;
 }
 
-
-
-/* ===== FOOTER ===== */
-
 footer {
   padding-bottom: 50px;
   width: 100%;
@@ -465,9 +440,9 @@ footer p {
 }
 
 .footer-nav {
-  width: 100%;
-  max-width: 1070px;
+  width: 1070px;
   margin: 0 auto;
+
   display: flex;
   justify-content: space-between;
   align-items: end;
@@ -541,8 +516,7 @@ footer .item {
 
 .copyright {
   margin: 0 auto;
-  width: 100%;
-  max-width: 1070px;
+  width: 1070px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -556,4 +530,149 @@ footer .item {
   font-weight: 400;
   font-style: normal;
   color: #fff;
+}
+
+@media (max-width: 541px) {
+  .main-section {
+    background-image: url("assets/images/banner.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: auto;
+    background-color: #ce2829;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 56px;
+  }
+
+  .main-section p {
+    display: none;
+  }
+
+  .main-section h1 {
+    width: 70%;
+  }
+
+  .menu-categories nav {
+    width: 100%;
+    padding: 20px 70px;
+  }
+
+  .menu-categories nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .menu-categories li {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .menu-categories a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 160px;
+    gap: 12px;
+    padding: 10px;
+  }
+
+  .offers {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .offer-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 0 60px;
+    gap: 16px;
+  }
+
+  .card-large,
+  .cards-right,
+  .card-top,
+  .card-bottom {
+    width: 100% !important;
+    height: auto;
+    min-height: 270px;
+  }
+
+  .card-large {
+    height: 336px;
+    position: relative;
+  }
+
+  .card-text {
+    padding: 25px;
+    position: relative;
+    margin-left: 0;
+  }
+
+  .card-text h2 {
+    font-size: 68px;
+  }
+
+  .card-text p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .card-large img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .cards-right {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .card-top,
+  .card-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    height: 180px;
+    border-radius: 12px;
+  }
+
+  .card-text2 h3,
+  .card-text3 h3 {
+    font-size: 32px;
+    margin: 0 10px 32px 0;
+  }
+
+  .card-top img,
+  .card-bottom img {
+    position: relative;
+    width: 140px;
+    height: auto;
+    right: 0;
+    top: 0;
+    transform: none;
+  }
+
+  .btn2,
+  .btn3 {
+    padding: 0 20px;
+    height: 40px;
+    font-size: 14px;
+  }
 }

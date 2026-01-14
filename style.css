@@ -505,7 +505,7 @@ footer h2 {
   align-items: start;
 }
 
-footer .item {
+footer .itemC {
   display: flex;
   justify-content: center;
   align-items: first baseline;
@@ -767,10 +767,10 @@ footer .item {
   }
 
   .card-items .item {
-    flex: 0 0 335px;
+    flex: 0 0 420px;
   }
 
-  .item img {
+  .card-items .item img {
     width: 100%;
   }
 
